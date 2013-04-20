@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout
+android:id="@+id/inputbox"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="5px"
+android:layout_marginBottom="2px"
+android:layout_marginLeft="2px"
+android:background="#ff003366"
+android:layout_marginRight="2px"
+>
+<TextView
+android:id="@+id/widget32"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Keywords:"
+android:textSize="15sp"
+android:typeface="monospace"
+android:gravity="center"
+android:layout_gravity="center_vertical"
+>
+</TextView>
+<AutoCompleteTextView
+android:id="@+id/txtUserNameEntry"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="10sp"
+android:layout_weight="1"
+>
+</AutoCompleteTextView>
+<Button
+android:id="@+id/btnFind"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Review"
+>
+</Button>
+</LinearLayout>
+<Button android:id="@+id/btnRemove" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"				 
+		android:text="Create Automated Collaboration Workspace">
+		</Button>
+
+<LinearLayout
+android:id="@+id/divider"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="5px"
+android:layout_marginBottom="10px"
+android:layout_marginLeft="2px"
+android:background="#ff003366"
+android:layout_marginRight="2px"
+>
+<TextView
+android:id="@+id/widget33"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="My Collaboration Events"
+android:textSize="14sp"
+android:typeface="monospace"
+android:gravity="center"
+android:layout_gravity="center_vertical"
+>
+</TextView>
+</LinearLayout>		    
+<ListView android:id="@+id/android:list" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"		 
+		android:layout_weight="1">
+		</ListView>
+</LinearLayout>

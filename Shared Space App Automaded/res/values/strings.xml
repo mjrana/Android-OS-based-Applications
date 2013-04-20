@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello"></string>
+    <string name="app_name">Collaborative Social Networks</string>
+    <string name="SharedSpace">Collaborative Social Networks</string>
+    <string name="signin">Sign in</string>
+    <string name="CSpace">Create Collaboration Workspace</string>
+    <string name="signinOption">OpenID SignIn Interface</string>
+</resources>
